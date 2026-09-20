@@ -1,7 +1,13 @@
+// Code your testbench here
+// or browse Examples
 
 module tb_ha;
+  // inputs and outputs declared as registers and wires in testing
+
   reg i_in1, i_in2;
   wire o_sum,o_cy;
+  // instantiating half adder to match module
+
   HA HA1(o_sum,o_cy,i_in1,i_in2);
   initial
     begin
@@ -19,4 +25,6 @@ module tb_ha;
      end
 endmodule
       
+  
+
   
